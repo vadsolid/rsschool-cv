@@ -20,7 +20,6 @@ Passionate about learning and self improvement. The more you learn, the more you
 // Arrow function 
 
 let power = (num, n) => num ** n;
-
 ```
 ## Projects:
 1. [rsschool-cv](https://vadsolid.github.io/rsschool-cv/cv)
