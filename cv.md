@@ -1,5 +1,4 @@
 # Vad Solid
------
 
 ## Contacts:
    * Location: New York
@@ -8,7 +7,6 @@
    * GitHub: [vadsolid](https://github.com/vadsolid)
 
 ## About Me
------
 Passionate about learning and self improvement. The more you learn, the more you have to share, teach, help the community around you.
 
 ## Key Skils:
@@ -18,7 +16,6 @@ Passionate about learning and self improvement. The more you learn, the more you
 4. Linux
 
 ## Code Example
------
 ```
 // Arrow function 
 
@@ -36,7 +33,7 @@ let power = (num, n) => num ** n;
        + [HTML](https://www.w3schools.com/html/default.asp)
        + [CSS](https://www.w3schools.com/css/default.asp)
        + [JavaScript](https://www.w3schools.com/js/default.asp)
-    * Master’s in Engineering
+   * Master’s in Engineering
 
 # Languages:
    Fluent in English, Ukrainian and Russian
