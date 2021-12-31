@@ -1,5 +1,7 @@
 # Vad Solid
 
+![Alt-text](img.jpg)
+
 ## Contacts:
    * Location: New York
    * Phone: +
