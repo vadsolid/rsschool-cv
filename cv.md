@@ -1,6 +1,6 @@
 # Vad Solid
 
-![Alt-text](img.jpg)
+![Alt-text](img.png)
 
 ## Contacts:
    * Location: New York
