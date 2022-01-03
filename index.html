@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV</title>
-  </head>
-  <body>
-      
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav>
+        <ul class="nav-list">          
+          <li><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li><a href="#about_me" class="nav-link">About me</a></li>
+          <li><a href="#key_skills" class="nav-link">Key Skills</a></li>          
+          <li><a href="#code" class="nav-link">Code</a></li>
+          <li><a href="#courses" class="nav-link">Courses</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-profile">
+        <img src="./img.png" alt="" class="section-profile-logo">
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">Vad Solid</h1>
+          <h3 class="section-subtitle">Junior Front-End Developer</h3>
+        </div>        
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          </li>
+          <li class="section-item contacts-item">
+            Email: <a href="mailto:maguscode@protonmail.com" title="email">maguscode@protonmail.com</a>
+          </li>
+          <li class="section-item contacts-item">
+            Github: <a href="https://github.com/vadsolid" title="github">vadsolid</a>
+          </li>
+          <li class="section-item contacts-item">
+            Discord: <a href="https://discord.com/" title="discord">Vad#1645</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="about_me">
+        <h2 class="section-title">About me</h2>
+        <p>
+          Passionate about learning and self improvement. The more you learn, the more you have to share, teach, help the community around you.
+        </p>
+      </section>
+      <section class="section" id="key_skills">
+        <h2 class="section-title">Key Skills</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Web-development:<span> HTML5, CSS3, JavaScript</span>
+          </li>
+          <li class="section-item">
+            Version control:<span> GIT, Github</span>
+          </li>
+          <li class="section-item">
+            Operating systems:<span> Linux</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre class="pre"><code>let power = (num, n) => num ** n;</code></pre>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            W3Schools<span> - Learn HTML</span>
+          </li>
+          <li class="section-item">
+            W3Schools<span> - Learn CSS</span>
+          </li>
+          <li class="section-item">
+            Hexlet<span> - Intro to Programming</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <p>In progress...</p>
+      </section>
+      <section class="section section-education" id="education">
+        <h2 class="section-title">Education</h2>
+        <p>Master’s in Engineering</p>
+      </section>
+      <section class="section section-english" id="english">
+        <h2 class="section-title">English</h2>
+        <p>B2 - Upper-Intermediate</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="nav-link">© 2022 <a href="https://github.com/vadsolid" class="nav-link">vadsolid</a></div>
+      <a href="https://rs.school/js/" class="rss"></a>
+    </div>
+  </footer>
+</body>
 </html>

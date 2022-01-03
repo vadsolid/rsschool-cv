@@ -1,3 +1,150 @@
 * {
-    background-color: lightseagreen;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+header {
+  background-color: lightseagreen;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 50px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: beige;
+}
+
+.main {
+  margin-bottom: auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section {
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 3px solid lightseagreen;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 10px solid lightseagreen;
+}
+
+.section-profile-logo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 5px lightseagreen;
+}
+
+.section-profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: olive;
+}
+
+.main-title {
+  position: relative;
+  padding: 0;
+  margin-bottom: 20px;
+  color: #4d2323;
+  font-size: 32px;
+}
+
+.section-subtitle {
+  color: #5c5c5c;
+  letter-spacing: 2px;
+}
+
+.section-list {
+  margin: 0;
+  padding: 0;  
+  list-style: none;
+}
+
+.section-item {
+  position: relative;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  padding-left: 30px;
+}
+
+.section-item span {
+  color: olive;
+}
+
+.section-item a {
+  text-decoration: none;
+  color: olive;
+  transition: color 0.5s;
+}
+
+.section-education,
+.section-english {
+  border-bottom: 0;
+}
+
+.footer {
+  background-color: lightseagreen;
+  padding: 20px;  
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url("./rss.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
